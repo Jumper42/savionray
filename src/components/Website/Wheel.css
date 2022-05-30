@@ -1,0 +1,170 @@
+.serviceWheelContainer {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    position: relative;
+    right: 790px;
+    top: 30px;
+}
+
+@media screen and (min-width:800px) {
+    .serviceWheelContainer {
+        flex-direction: row;
+    }
+}
+
+.serviceWheelContainer #serviceWheelTxt,
+.serviceWheelContainer .serviceWheelSvg {
+    flex-basis: 350px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#serviceWheelTxt {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    pointer-events: none;
+    justify-content: center;
+}
+
+#serviceWheelTxt .strategy-execution {
+    width: 100%;
+}
+
+#serviceWheelTxt .strategy-execution h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.serviceWheelSvg {
+    cursor: pointer;
+}
+
+#serviceWheelTxt>.wheel_content {
+    opacity: 0;
+    transition: all ease 0.8s;
+    position: absolute;
+    background-color: white;
+    padding: 0 2rem;
+    margin-top: 3em;
+    width: 80%;
+}
+
+#serviceWheelTxt>div.showService {
+    opacity: 1;
+}
+
+#serviceWheelTxt .wheel_content h2 {
+    text-align: center;
+}
+
+#serviceWheelTxt .blue h2 {
+    color: #88A6C5;
+}
+
+#serviceWheelTxt .pink h2 {
+    color: #D39B92;
+}
+
+@media screen and (max-width: 767px) {
+    #serviceWheelTxt {
+        height: 400px;
+    }
+
+    #serviceWheelTxt>.wheel_content {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+.st0 {
+    fill: #E2B2AF;
+    transition: all 1.4s;
+}
+
+.st0:hover {
+    fill: #bd504e;
+    z-index: 999999 !important;
+    /* transform: translate(40%, -100%); */
+}
+
+.st1 {
+    fill: #EABCBB;
+    transition: all 1.4s;
+}
+
+.st1:hover {
+    fill: #bd504e;
+}
+
+.st2 {
+    fill: #A1B6C9;
+    transition: all 1.4s;
+}
+
+.st2:hover {
+    fill: #1e4b74;
+}
+
+.st3 {
+    fill: #ACC1D1;
+    transition: all 1.4s;
+}
+
+.st3:hover {
+    fill: #1e4b74;
+}
+
+.st4 {
+    fill: #C5D1D8;
+    transition: all 1.4s;
+}
+
+.st4:hover {
+    fill: #1e4b74;
+}
+
+.st5 {
+    fill: #DDA49E;
+    transition: all 1.4s;
+}
+
+.st5:hover {
+    fill: #bd504e;
+}
+
+.st6 {
+    fill: #D39B92;
+    transition: all 1.4s;
+}
+
+.st6:hover {
+    fill: #bd504e;
+}
+.st7 {
+    fill: #88A6C5;
+    transition: all 1.4s;
+}
+
+.st7:hover {
+    fill: #1e4b74;
+}
+
+.st8 {
+    fill: #7D767D;
+}
+
+.st9 {
+    fill: #C48D81;
+}
+
+.st10 {
+    fill: #FFFFFF;
+}
+
+#Layer_1 {
+    enable-background: new -151 -202 948.9 800;
+}
