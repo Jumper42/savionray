@@ -82,6 +82,7 @@
 
 .st0 {
     fill: #E2B2AF;
+    transform: scale(1.2);
     transition: all 1.4s;
 }
 
